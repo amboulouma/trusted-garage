@@ -1,7 +1,6 @@
 #trusted-garage{
     display: flex;
     flex-direction: column;
-    border: dotted;
 
 }
 
@@ -14,11 +13,11 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border: dotted;
 }
 
 #images{
     flex-grow: 1;
+    justify-content:center;
     padding : 2px;
     display: flex;
     flex-wrap: wrap;
@@ -44,11 +43,11 @@
 #image4:hover {opacity: 0.7;}
 
 #details{
+    justify-content:center;
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border: dotted;
 }
 
 #images-column{
@@ -62,14 +61,14 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border: dotted;
+    border: 1px solid red;
 }
 
 #history-details{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border: dotted;
+    border: 1px solid red;
 }
 
 .history-block{
@@ -77,7 +76,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border: dotted;
+    border: 1px solid red;
 }
 
 #add{
