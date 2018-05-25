@@ -67,20 +67,43 @@
 #history-details{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     flex-direction: row;
     border: 1px solid red;
 }
 
+.block-icon{
+    display: flex;
+    justify-content: center;
+    padding-right: 10px; 
+}
+
 .history-block{
-    flex-grow: 1;
+    text-align: left;
+    font-size: 12px;
+    border-radius: 20px;
+    padding-left: 10px; 
+    justify-content: center;
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     border: 1px solid red;
+    width: 150px;
+    height: 200px;
 }
 
 #add{
-    flex-grow: 1;
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 150px;
+    height: 200px;
 }
 
 #footer{
