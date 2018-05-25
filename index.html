@@ -1,11 +1,171 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>trusted-garage</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="/dist/build.js"></script>
-  </body>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="Trusted Garage">
+  <meta name="description" content="We certify the maintenance history of cars through a Gefco blockchain.  ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link href="static/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="truster-garage" class="">
+    <div id="header" class="">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Trusted Garage by Gefco</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Profile
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+    </div>
+    <div id="car" class="">
+      <div id="images" class="">
+        <div id="images-column" class="">
+          <div id="image1" class="image">
+            <img id="car1" src="res/car2.jpg" width="150" height="100">
+          </div>
+          <div id="image2" class="image">
+            <img id="car2" src="res/car3.jpg" width="150" height="100">
+          </div>
+          <div id="image3" class="image">
+            <img id="car3" src="res/car4.jpg" width="150" height="100">
+          </div>
+        </div>
+        <div id="image4" class="">
+          <img id="car4" src="res/car1.jpg" width="400" height="300">
+        </div>
+      </div>
+      <div id="details" class="">
+        <h3>Details</h3>
+        <div id="vin" class="">
+          Vin
+        </div>
+        <div id="brand" class="">
+          Brand
+        </div>
+        <div id="model" class="">
+          Model
+        </div>
+        <div id="fabrication" class="">
+          Fabrication
+        </div>
+        <div id="color" class="">
+          Color
+        </div>
+        <div id="doors" class="">
+          Doors
+        </div>
+        <div id="energy" class="">
+          Energy
+        </div>
+      </div>
+    </div>
+    <div id="history" class="">
+      <div id="history-details" class="">
+        <div id="block1" class="history-block">
+          <div id="icon1" class="">
+            Icon
+          </div>
+          <div id="date1" class="">
+            Date
+          </div>
+          <div id="mileage1" class="">
+            Mileage
+          </div>
+          <div id="actor1" class="">
+            Actor
+          </div>
+        </div>
+        <div id="block2" class="history-block">
+          <div id="icon2" class="">
+            Icon
+          </div>
+          <div id="date2" class="">
+            Date
+          </div>
+          <div id="mileage2" class="">
+            Mileage
+          </div>
+          <div id="actor2" class="">
+            Actor
+          </div>
+        </div>
+        <div id="block3" class="history-block">
+          <div id="icon3" class="">
+            Icon
+          </div>
+          <div id="date3" class="">
+            Date
+          </div>
+          <div id="mileage3" class="">
+            Mileage
+          </div>
+          <div id="actor3" class="">
+            Actor
+          </div>
+        </div>
+        <div id="block4" class="history-block">
+          <div id="icon4" class="">
+            Icon
+          </div>
+          <div id="date4" class="">
+            Date
+          </div>
+          <div id="mileage4" class="">
+            Mileage
+          </div>
+          <div id="actor4" class="">
+            Actor
+          </div>
+        </div>
+        <div id="add" class="">
+          Add
+        </div>
+      </div>
+      <div id="certification" class="">
+        Certified By Gefco
+      </div>
+    </div>
+  <div id="footer" class="">
+    
+  </div>
+
+  <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="static/scripts.js"></script>
+</body>
+
 </html>
