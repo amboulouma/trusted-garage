@@ -105,7 +105,7 @@ body{
 }
 
 .history-block-chain{
-    
+
 }
 
 #history-details{
@@ -149,6 +149,10 @@ hr{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     width: 150px;
     height: 200px;
+}
+
+.history-block-chain{
+
 }
 
 .history-block:hover {
