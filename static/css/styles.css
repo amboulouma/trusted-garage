@@ -7,7 +7,7 @@ body{
 }
 
 .carinfo{
-    background: #f9c200;
+    background: #2980b9;
     padding: 10px;
     padding-right: 35px;
     padding-left: 00px;
@@ -145,7 +145,7 @@ hr{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: #f9c200;
+    background-color: #2980b9;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     width: 150px;
     height: 200px;
@@ -170,7 +170,7 @@ hr{
     flex-direction: column;
     width: 150px;
     height: 200px;
-    border: 1px solid #f9c200;
+    border: 1px solid #2980b9;
 }
 
 #chain5{
@@ -183,7 +183,7 @@ hr{
 
 #form{
     color: white;
-    background-color: #f9c200;
+    background-color: #2980b9;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     padding: 10px;
     padding-left: 5%;
