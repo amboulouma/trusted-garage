@@ -148,8 +148,9 @@ hr{
 }
 
 #form{
-    border-radius: 20px;
-    border: 1px solid grey;
+    color: white;
+    background-color: #f9c200;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     padding: 10px;
     padding-left: 5%;
     padding-right: 5%;
