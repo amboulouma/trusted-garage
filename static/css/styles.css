@@ -8,9 +8,27 @@ body{
 
 .carinfo{
     background: #f9c200;
-    padding: 20px;
+    padding: 10px;
+    padding-bottom: 0px;
     color: white;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.carinfo ul  {
+    list-style-type: none;
+}
+
+.carinfo ul li {
+	font-size: 14px;
+	color: #fff;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	padding: 5px 0
+}
+.carinfo ul li:last-child {
+    border-bottom: 0;
+}
+.carinfo ul li strong {
+	float: right;
 }
 
 #trusted-garage{
