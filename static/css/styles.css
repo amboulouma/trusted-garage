@@ -162,12 +162,19 @@ hr{
 }
 
 #add{
+    margin-top: 10px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #f9c200;
+}
 
+#chain5{
+    display:none;
 }
 
 #add-img:hover{

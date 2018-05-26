@@ -60,7 +60,7 @@ $("#add").on('click', function(){
         $("#hr-form").css("display","none")
         $("#add-img").attr("src","res/add.png")
         $("#block5").css("display","flex")
-        $("#chain5").css("display","block")
+        $("#chain5").css("display","flex")
         i++
         alert("Contract Hash - 0xA94C943B7b")
     }
