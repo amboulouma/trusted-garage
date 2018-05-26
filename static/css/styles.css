@@ -9,6 +9,7 @@ body{
 .carinfo{
     background: #f9c200;
     padding: 10px;
+    padding-right: 30px;
     padding-bottom: 0px;
     color: white;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
