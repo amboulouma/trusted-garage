@@ -97,9 +97,16 @@
     border: 1px solid grey;
     width: 150px;
     height: 200px;
+    background-color: white;
+}
+
+.history-block:hover {
+    opacity: 0.7;
+    background-color: grey;
 }
 
 #add{
+    background-color: white;
     border-radius: 20px;
     margin: 10px;
     align-items: center;
@@ -112,10 +119,30 @@
     height: 200px;
 }
 
+#add:hover{
+    opacity: 0.7;
+    background-color: grey;
+}
+
+#form{
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
+}
+
 #footer{
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
+}
+
+.hr-form{
+    display:none;
 }
 
 .modal {

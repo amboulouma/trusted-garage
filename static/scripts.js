@@ -42,3 +42,21 @@ span.onclick = function() {
 modal.onclick = function() { 
     modal.style.display = "none";
 }
+
+var i = 0
+
+$("#add").on('click', function(){
+    if (i%2 == 0){
+        $("#form").css("display","block")
+        $(".hr-form").css("display","block")
+        $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+        i++
+    }
+    else{
+        $("#form").css("display","none")
+        $("#hr-form").css("display","none")
+        i++
+        alert('fullhash=0x830e6922af1008, contract=0xA94C943B7b')
+    }
+
+})
