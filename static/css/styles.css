@@ -9,10 +9,12 @@ body{
 .carinfo{
     background: #f9c200;
     padding: 10px;
-    padding-right: 30px;
+    padding-right: 35px;
+    padding-left: 00px;
     padding-bottom: 0px;
     color: white;
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    width:80%;
 }
 
 .carinfo ul  {
@@ -100,8 +102,10 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
+}
 
+.history-block-chain{
+    
 }
 
 #history-details{
@@ -125,6 +129,7 @@ body{
     display: flex;
     justify-content: center;
     padding-right: 10px; 
+    margin-bottom: 15px;
 }
 
 hr{
