@@ -49,7 +49,7 @@ $("#add").on('click', function(){
     if (i%2 == 0){
         $("#form").css("display","block")
         $(".hr-form").css("display","block")
-        $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+        $("html, body").animate({ scrollTop: $(document).height() - 725}, 1000);
         i++
     }
     else{
