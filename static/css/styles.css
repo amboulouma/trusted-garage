@@ -2,6 +2,17 @@ body{
 
 }
 
+#details-block{
+
+}
+
+.carinfo{
+    background: #f9c200;
+    padding: 20px;
+    color: white;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
 #trusted-garage{
     display: flex;
     flex-direction: column;
@@ -14,7 +25,7 @@ body{
 }
 
 #car{
-    
+    justify-content: center;
     flex-grow: 3;
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +33,6 @@ body{
 }
 
 #images{
-    flex-grow: 1;
     justify-content:center;
     padding : 2px;
     display: flex;
@@ -36,6 +46,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    padding-right: 15px;
 }
 
 #image4{
@@ -49,13 +60,13 @@ body{
 
 #details{
     justify-content:center;
-    flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     border-radius: 20;
     padding-left: 5%;
-    width: 20%
+    width: 40%
+    
 }
 
 #images-column{
@@ -66,6 +77,7 @@ body{
 
 #history{
     flex-grow: 2;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -96,18 +108,21 @@ body{
     padding-right: 10px; 
 }
 
+hr{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
 .history-block{
     text-align: left;
     font-size: 12px;
-    border-radius: 20px;
     padding-left: 10px; 
     justify-content: center;
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border: 1px solid grey;
     background-color: #f9c200;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     width: 150px;
     height: 200px;
 }
