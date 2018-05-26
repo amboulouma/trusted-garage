@@ -141,7 +141,7 @@ hr{
     font-size: 12px;
     padding-left: 10px; 
     justify-content: center;
-    margin: 10px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -152,7 +152,9 @@ hr{
 }
 
 .history-block-chain{
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .history-block:hover {
@@ -160,15 +162,12 @@ hr{
 }
 
 #add{
-    border-radius: 20px;
-    margin: 10px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 150px;
-    height: 200px;
+
 }
 
 #add-img:hover{
