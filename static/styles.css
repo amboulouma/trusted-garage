@@ -75,7 +75,11 @@
 #certification{
     display: flex;
     justify-content: flex-end;
-    padding-right: 10px;
+    padding-right: 10%;
+}
+
+#block5{
+    display: none;
 }
 
 .block-icon{

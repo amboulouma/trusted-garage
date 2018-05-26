@@ -54,7 +54,9 @@ $("#add").on('click', function(){
     }
     else{
         $("#form").css("display","none")
+        $("html, body").animate({ scrollTop: $(document).height() }, "slow");
         $("#hr-form").css("display","none")
+        $("#block5").css("display","flex")
         i++
         alert('fullhash=0x830e6922af1008, contract=0xA94C943B7b')
     }
