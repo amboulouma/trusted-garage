@@ -12,7 +12,7 @@ body{
     padding-right: 35px;
     padding-left: 00px;
     padding-bottom: 0px;
-    color: grey;
+    color: white;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     width:80%;
 }
@@ -98,7 +98,7 @@ body{
 
 #history{
     flex-grow: 2;
-    color: grey;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -182,7 +182,7 @@ hr{
 }
 
 #form{
-    color: grey;
+    color: white;
     background-color: #f9c200;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     padding: 10px;
