@@ -48,17 +48,21 @@ var i = 0
 $("#add").on('click', function(){
     if (i%2 == 0){
         $("#form").css("display","block")
+        $("#add-img").attr("src","res/check.svg")
         $(".hr-form").css("display","block")
         $("html, body").animate({ scrollTop: $(document).height() - 725}, 1000);
         i++
+
     }
     else{
         $("#form").css("display","none")
         $("html, body").animate({ scrollTop: $(document).height() }, "slow");
         $("#hr-form").css("display","none")
+        $("#add-img").attr("src","res/add.png")
         $("#block5").css("display","flex")
         i++
-        alert('fullhash=0x830e6922af1008, contract=0xA94C943B7b')
+        alert("Contract Hash - 0xA94C943B7b")
     }
 
 })
+

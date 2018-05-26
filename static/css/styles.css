@@ -1,3 +1,7 @@
+body{
+
+}
+
 #trusted-garage{
     display: flex;
     flex-direction: column;
@@ -7,10 +11,10 @@
 }
 
 #header{
-    flex-grow: 1;
 }
 
 #car{
+    
     flex-grow: 3;
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +40,6 @@
 
 #image4{
     border-radius: 5px;
-    cursor: pointer;
     padding : 2px;
     transition: 0.3s;
 }
@@ -50,6 +53,9 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    border-radius: 20;
+    padding-left: 5%;
+    width: 20%
 }
 
 #images-column{
@@ -63,6 +69,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
+
 }
 
 #history-details{
@@ -99,18 +107,16 @@
     flex-wrap: wrap;
     flex-direction: column;
     border: 1px solid grey;
+    background-color: #f9c200;
     width: 150px;
     height: 200px;
-    background-color: white;
 }
 
 .history-block:hover {
     opacity: 0.7;
-    background-color: grey;
 }
 
 #add{
-    background-color: white;
     border-radius: 20px;
     margin: 10px;
     align-items: center;
